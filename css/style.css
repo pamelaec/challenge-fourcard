@@ -1,0 +1,473 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #fafafa;
+}
+
+.chamada-container{  
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 60px 0px;   
+}
+
+.chamada-titulo {
+    position: relative;
+    display: flex;
+    color:  hsl(234, 12%, 34%);
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 200;
+    padding: 0 15%;
+    line-height: 1.125em;
+}
+
+.chamada-subtitulo {
+    position: relative;
+    display: flex;
+    color: hsl(234, 12%, 34%);
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 680;
+    padding: 18px;
+    line-height: 1.125em;
+}
+
+.chamada-texto{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    padding: 20px;
+    color: hsl(229, 6%, 66%);
+   line-height: 1.5em;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+.card-super{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 550px;
+    left: 125px;
+    background-color: #fafafa;
+    height: 250px;
+    width: 400px;
+    box-shadow: 0px 5px 25px rgba(197, 197, 197, 0.5);
+    border-radius: 10px 10px 0px 0px;
+}
+
+.card-team{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 375px;
+    left: 550px;
+    background-color: #fafafa;
+    height: 250px;
+    width: 400px;
+    box-shadow: 0px 5px 25px rgba(197, 197, 197, 0.5);
+    border-radius: 10px 10px 0px 0px;
+}
+
+.card-karma{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 650px;
+    left: 550px;
+    
+    background-color: #fafafa;
+    height: 250px;
+    width: 400px;
+    box-shadow: 0px 5px 25px rgba(197, 197, 197, 0.5);
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+.card-calc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 550px;
+    left: 975px;
+    background-color: #fafafa;
+    height: 250px;
+    width: 400px;
+    box-shadow: 0px 5px 25px rgba(197, 197, 197, 0.5);
+    border-radius: 10px 10px 0px 0px;  
+}
+
+.titulo{
+    font-weight: 600;
+    font-size: 20px;
+    color:hsl(234, 12%, 34%);       
+    height: 0px;
+    position: absolute;
+    top: 45px;
+    left: 45px;
+}
+
+.card-texto {
+    font-weight: 200;
+    color: hsl(0, 0%, 59%);
+    height: 0;
+    position: absolute;
+    top: 85px;
+    left: 45px;
+    font-size: 15px;
+    width: 250px;;
+
+}
+
+.img-card {
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: 175px;
+    right: 25px;
+
+}
+
+.super{
+    border-top: 4px solid hsl(180, 62%, 55%);
+}
+
+.team {
+    border-top:  solid hsl(0, 78%, 62%);
+}
+
+.karma {
+    border-top:  4px solid hsl(34, 97%, 64%);
+}
+
+.calc {
+    border-top:  4px solid hsl(212, 86%, 64%);
+
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 1050px;
+    left: 550px; 
+}
+
+footer a {
+    color: black;
+    font-weight: 600;
+}
+
+.attribution {
+     font-size: 11px; 
+     text-align: center;
+     padding: 10px 10px;
+ }
+
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+ }
+
+ @media screen and (max-width: 1500px){
+    .container {
+        position: absolute;
+        top: 0px;
+        left: -15px;
+    }
+}
+
+@media screen and (max-width: 1450px){
+    .container {
+        position: absolute;
+        top: 0px;
+        left: -45px;
+    }
+}
+
+@media screen and (max-width: 1400px){
+    
+    .container {
+        position: absolute;
+        top: 0px;
+        left: -75px;
+    }
+
+}
+
+@media screen and (max-width: 1350px) {
+    .container {
+        position: absolute;
+        left: -50px;
+        top: 0px;
+    }
+}
+
+@media screen and (max-width:  1300px){
+
+    .card-super {
+        position: absolute;
+        top: 375px;
+        left: 250px;
+    }
+
+    .card-team {
+        position: absolute;
+        top: 650px;
+        left: 250px;
+    }
+
+    .card-karma {
+        position: absolute;
+        top: 375px;
+        left: 700px;
+    }
+
+    .card-calc {
+        position: absolute;
+        left: 700px;
+        top: 650px;
+    }
+
+    footer {
+        position: absolute;
+        bottom: 5px;
+        left: 400px;
+    }
+
+    
+}
+
+@media screen and  (max-width: 1200px){
+    .container {
+        position: absolute;
+        top: 0px;
+        left: -45px;
+   
+    }
+}
+
+@media screen and (max-width: 1150px){
+    
+    .chamada-titulo{
+        font-size: 25px;
+    }
+    .chamada-subtitulo{
+        font-size: 30px;
+    }
+
+    .chamada-texto {
+        font-size: 16px;
+
+    }
+
+    .card-super {    
+        position: absolute;
+        top: 350px;
+        left: 400px;
+
+    }
+
+    .card-team{
+        position: absolute;
+        top: 650px;
+        left: 400px;
+
+    }
+
+    .card-karma{
+        position: absolute;
+        top: 950px;
+        left: 400px;
+
+    }
+
+    .card-calc{
+        position: absolute;
+        top: 1250px;
+        left: 400px;
+
+    }
+
+    footer {
+        position: absolute;
+        top: 1600px;
+        left: 350px;
+    }
+
+}
+
+@media screen and (max-width: 1000px){
+
+
+    .card-super {    
+        position: absolute;
+        top: 350px;
+        left: 325px;
+
+    }
+
+    .card-team{
+        position: absolute;
+        top: 650px;
+        left: 325px;
+
+    }
+
+    .card-karma{
+        position: absolute;
+        top: 950px;
+        left: 325px;
+
+    }
+
+    .card-calc{
+        position: absolute;
+        top: 1250px;
+        left: 325px;
+
+    }
+
+    footer {
+        position: absolute;
+        top: 1600px;
+        left: 285px;
+    }
+
+
+}
+
+@media screen and (max-width: 900px){
+
+
+    .card-super {    
+        position: absolute;
+        top: 350px;
+        left: 275px;
+
+    }
+
+    .card-team{
+        position: absolute;
+        top: 650px;
+        left: 275px;
+
+    }
+
+    .card-karma{
+        position: absolute;
+        top: 950px;
+        left: 275px;
+
+    }
+
+    .card-calc{
+        position: absolute;
+        top: 1250px;
+        left: 275px;
+
+    }
+
+    footer {
+        position: absolute;
+        top: 1600px;
+        left: 245px;
+    }
+    
+}
+
+@media screen and (max-width:700px){
+
+    .card-super {    
+        position: absolute;
+        top: 350px;
+        left: 150px;
+
+    }
+
+    .card-team{
+        position: absolute;
+        top: 650px;
+        left: 150px;
+
+    }
+
+    .card-karma{
+        position: absolute;
+        top: 950px;
+        left: 150px;
+
+    }
+
+    .card-calc{
+        position: absolute;
+        top: 1250px;
+        left: 150px;
+
+    }
+
+    footer {
+        position: absolute;
+        top: 1600px;
+        left: 125px;
+    }
+    
+    
+}
+
+@media screen and (max-width: 500px){
+    .chamada-texto {
+        font-size: 13px;
+        
+    }
+
+    .card-super {
+        position: absolute;
+        top: 350px;
+        left: 65px;
+    }
+
+    .card-team{
+        position: absolute;
+        top: 650px;
+        left: 65px;
+
+    }
+
+    .card-karma{
+        position: absolute;
+        top: 950px;
+        left: 65px;
+
+    }
+
+    .card-calc{
+        position: absolute;
+        top: 1250px;
+        left: 65px;
+
+    }
+
+    footer {
+        position: absolute;
+        top: 1600px;
+        left: 35px;
+    }
+}
+    
+
